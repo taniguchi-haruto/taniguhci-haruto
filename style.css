@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background: rgb(169, 238, 255);
+}
+
+h1 {
+    background-color: cyan;
+    font-size: 50px;
+
+}
+ul {
+    text-align: left;
+}
+
+li {
+ 
+    font-size: larger;
+}
+
+#daimei {
+    text-shadow: 0px 0px 0px rgb(212, 145, 145);
+}
+
+
+#naiyou {
+    display:inline-flex;
+    text-align: center;
+
+}
+/* 自己紹介枠 */
+#selfIntroduction {
+    height: 400px;
+    width: 500px;
+    border: solid;
+    border-color: #6eb7ff;
+    padding: 0.5em 1em;
+    margin: 2em 2%;
+    color: #FFF;
+    background: #6eb7ff;
+    border-bottom: solid 6px #3f87ce;
+    border-right:solid 6px #3f87ce;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+/* 基礎コース発表ページ枠 */
+#announcing {
+    height: 400px;
+    width: 400px;
+    border: solid;
+    border-color: #6eb7ff;
+    padding: 0.5em 1em;
+    margin: 2em 2%;
+    color: #FFF;
+    background: #6eb7ff;
+    border-bottom: solid 6px #3f87ce;
+    border-right:solid 6px #3f87ce;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+#pageJump {
+    margin-top: 30%;
+    font-size: 30px;
+    font-family:sans-serif;
+    height: auto;
+    width: 300px;
+}
+
+/* タイピング記録枠 */
+#taiping {
+    height: 400px;
+    width: 400px;
+    border: solid;
+    border-color: #6eb7ff;
+    padding: 0.5em 1em;
+    margin: 2em 2%;
+    color: #FFF;
+    background: #6eb7ff;
+    border-bottom: solid 6px #3f87ce;
+    border-right:solid 6px #3f87ce;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
