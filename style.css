@@ -29,7 +29,7 @@ li {
 }
 /* 自己紹介枠 */
 #selfIntroduction {
-    height: 400px;
+    height: auto;
     width: 500px;
     border: solid;
     border-color: #6eb7ff;
@@ -44,8 +44,8 @@ li {
 }
 /* 基礎コース発表ページ枠 */
 #announcing {
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 500px;
     border: solid;
     border-color: #6eb7ff;
     padding: 0.5em 1em;
@@ -58,7 +58,6 @@ li {
     border-radius: 9px;
 }
 #pageJump {
-    margin-top: 30%;
     font-size: 30px;
     font-family:sans-serif;
     height: auto;
@@ -66,7 +65,8 @@ li {
 }
 
 /* タイピング記録枠 */
-#taiping {
+.taiping {
+    display: inline-block;
     height: 400px;
     width: 400px;
     border: solid;
@@ -79,4 +79,135 @@ li {
     border-right:solid 6px #3f87ce;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    
 }
+
+.typing {
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+.imgTyping {
+    transition-duration: 0.5s;
+}
+.imgTyping:hover {
+    overflow: hidden;
+    text-align: center;
+    z-index: 99;
+    transform: translate(-100%, -100%);
+    transform:scale(3, 20);
+    cursor:pointer;
+}
+div {
+    display: inline-block;
+}
+#click {
+
+    height: 500px;
+    width:80%;
+    background: #6eb7ff;
+    border-radius: 9px;
+}
+#game {
+    text-align: center;
+    margin: 10%;
+}
+button {
+    width: auto;
+    height: auto;
+    border-radius: 9px;
+}
+.level {
+    background-color: azure;
+    border-radius: 9px;
+}
+@keyframes kind {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-300px);
+  
+    }
+    50% {
+      transform: translateX(300px);
+  
+    }
+    75% {
+      transform: translateX(-300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  #kindSway{
+    animation: kind 10s infinite ease-in-out;
+  }
+  @keyframes usually {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-300px);
+        
+    }
+    40% {
+        transform: translateY(-100px);
+    }
+    60% {
+      transform: translateY(200px);
+    }
+    80% {
+      transform: translateX(300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  #usuallySway{
+    animation: usually 5s infinite ease-in-out;
+  }
+
+  @keyframes difficult {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(-50px);
+    }
+    20% {
+      transform: translateX(-20px);
+    }
+    30% {
+        transform: translateY(-50px);
+    }
+    40% {
+      transform: translateY(200px);
+    }
+    50% {
+      transform: translateX(300px);
+    }
+    60% {
+      transform: translateX(-500);
+    }
+    70% {
+      transform: translateY(500);
+    }
+    80% {
+      transform: translateX(-500);
+    }
+    90% {
+        transform: translateX(500);
+    }
+   
+    
+  }
+  #difficultSway{
+    animation: difficult 0.7s infinite ease-in-out;
+  }
+
+
+  #sway{
+    animation: sway 0s infinite ease-in-out;
+  }
